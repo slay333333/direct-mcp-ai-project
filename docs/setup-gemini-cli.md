@@ -8,7 +8,7 @@
 {
   "mcpServers": {
     "yandex-direct": {
-      "url": "https://direct-mcp.aatex.ru/mcp",
+      "url": "https://lidfly.ru/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
       }
@@ -17,7 +17,7 @@
 }
 ```
 
-Замените `YOUR_API_KEY` на ваш API-ключ из [личного кабинета direct-mcp](https://direct-mcp.aatex.ru).
+Замените `YOUR_API_KEY` на ваш API-ключ из [личного кабинета direct-mcp](https://lidfly.ru).
 
 ## 2. Запуск
 

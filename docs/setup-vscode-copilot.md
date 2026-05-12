@@ -17,7 +17,7 @@
       "args": [
         "-y",
         "mcp-remote",
-        "https://direct-mcp.aatex.ru/mcp",
+        "https://lidfly.ru/mcp",
         "--header",
         "Authorization: Bearer YOUR_API_KEY"
       ]
@@ -26,7 +26,7 @@
 }
 ```
 
-Замените `YOUR_API_KEY` на ваш API-ключ из [личного кабинета direct-mcp](https://direct-mcp.aatex.ru).
+Замените `YOUR_API_KEY` на ваш API-ключ из [личного кабинета direct-mcp](https://lidfly.ru).
 
 > **Примечание:** VS Code использует stdio-транспорт через `mcp-remote` в качестве моста к HTTP MCP-серверу. Пакет `mcp-remote` устанавливается автоматически через `npx`.
 

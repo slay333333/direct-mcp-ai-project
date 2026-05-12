@@ -25,7 +25,7 @@ cp .openclaw/openclaw.example.json .openclaw/openclaw.json
 }
 ```
 
-API-ключ получите в [личном кабинете direct-mcp](https://direct-mcp.aatex.ru).
+API-ключ получите в [личном кабинете direct-mcp](https://lidfly.ru).
 
 > **Важно:** Файл `.openclaw/openclaw.json` содержит ваш токен — не коммитьте его в git. В репозитории лежит только `.openclaw/openclaw.example.json` с плейсхолдером.
 

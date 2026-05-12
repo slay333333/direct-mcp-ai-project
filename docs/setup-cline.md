@@ -12,7 +12,7 @@
 {
   "mcpServers": {
     "yandex-direct": {
-      "url": "https://direct-mcp.aatex.ru/mcp",
+      "url": "https://lidfly.ru/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
       }
@@ -21,7 +21,7 @@
 }
 ```
 
-Замените `YOUR_API_KEY` на ваш API-ключ из [личного кабинета direct-mcp](https://direct-mcp.aatex.ru).
+Замените `YOUR_API_KEY` на ваш API-ключ из [личного кабинета direct-mcp](https://lidfly.ru).
 
 ## 3. Открытие проекта
 
@@ -46,7 +46,7 @@ Cline должен обнаружить MCP-сервер `yandex-direct` и пр
 3. Перейдите в раздел MCP Servers
 4. Добавьте сервер:
    - Name: `yandex-direct`
-   - URL: `https://direct-mcp.aatex.ru/mcp`
+   - URL: `https://lidfly.ru/mcp`
    - Headers: `Authorization: Bearer YOUR_API_KEY`
 
 ## 6. Инструкции для агента

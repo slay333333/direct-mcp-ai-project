@@ -33,7 +33,7 @@
 
 ## MCP-инструменты
 
-MCP-сервер: `vk-ads` (эндпоинт `https://direct-mcp.aatex.ru/mcp/vk`)
+MCP-сервер: `vk-ads` (эндпоинт `https://lidfly.ru/mcp/vk`)
 
 ### Кампании
 

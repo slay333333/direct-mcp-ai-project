@@ -1,6 +1,6 @@
 # direct-mcp AI Project
 
-Стартовый проект для управления рекламой в **Яндекс Директе** и **VK Ads** через ваш ИИ с помощью сервиса [direct-mcp.aatex.ru](https://direct-mcp.aatex.ru/).
+Стартовый проект для управления рекламой в **Яндекс Директе** и **VK Ads** через ваш ИИ с помощью сервиса [lidfly.ru](https://lidfly.ru/).
 
 Раскрывает мощь вашего ИИ (Клод, Курсор, ЧатГПТ и т.п.) при работе с рекламой:
 
@@ -15,17 +15,17 @@
 
 ## Что такое direct-mcp
 
-[direct-mcp](https://direct-mcp.aatex.ru/) — это сервис, который подключает AI-агентов к рекламным платформам. Работает как умный-слой между ИИ и API Яндекс Директа / VK Ads — вы общаетесь с агентом на естественном языке, а он управляет рекламой через API.
+[direct-mcp](https://lidfly.ru/) — это сервис, который подключает AI-агентов к рекламным платформам. Работает как умный-слой между ИИ и API Яндекс Директа / VK Ads — вы общаетесь с агентом на естественном языке, а он управляет рекламой через API.
 
 ### Поддерживаемые рекламные платформы
 
 | Платформа                | Эндпоинт                                   | Инструментов       |
 | ------------------------ | ------------------------------------------ | ------------------ |
-| **Яндекс Директ**        | `https://direct-mcp.aatex.ru/mcp`          | 119                |
-| **Яндекс Директ (lite)** | `https://direct-mcp.aatex.ru/mcp/lite`     | 3 мета-инструмента |
-| **VK Ads**               | `https://direct-mcp.aatex.ru/mcp/vk`       | 76                 |
-| **VK Ads (lite)**        | `https://direct-mcp.aatex.ru/mcp/vk/lite`  | 3 мета-инструмента |
-| **Wordstat**             | `https://direct-mcp.aatex.ru/mcp/wordstat` | 5                  |
+| **Яндекс Директ**        | `https://lidfly.ru/mcp`          | 119                |
+| **Яндекс Директ (lite)** | `https://lidfly.ru/mcp/lite`     | 3 мета-инструмента |
+| **VK Ads**               | `https://lidfly.ru/mcp/vk`       | 76                 |
+| **VK Ads (lite)**        | `https://lidfly.ru/mcp/vk/lite`  | 3 мета-инструмента |
+| **Wordstat**             | `https://lidfly.ru/mcp/wordstat` | 5                  |
 
 #### Полная vs Lite версия
 
@@ -58,7 +58,7 @@ cd direct-mcp-ai-project
 
 ### 2. Получите API-ключ
 
-1. Зарегистрируйтесь на [direct-mcp.aatex.ru/app](https://direct-mcp.aatex.ru/app) — укажите email, подтвердите кодом
+1. Зарегистрируйтесь на [lidfly.ru/app](https://lidfly.ru/app) — укажите email, подтвердите кодом
 2. API-ключ сгенерируется автоматически
 3. Добавьте OAuth-токен Яндекс Директа (кнопка "Получить токен на Яндексе" в кабинете — 30 секунд)
 4. Для VK Ads — добавьте токен VK в том же кабинете
@@ -76,7 +76,7 @@ cd direct-mcp-ai-project
   "mcpServers": {
     "yandex-direct": {
       "type": "http",
-      "url": "https://direct-mcp.aatex.ru/mcp",
+      "url": "https://lidfly.ru/mcp",
       "headers": {
         "Authorization": "Bearer ваш-ключ-сюда"
       }
@@ -92,12 +92,12 @@ cd direct-mcp-ai-project
   "mcpServers": {
     "yandex-direct": {
       "type": "http",
-      "url": "https://direct-mcp.aatex.ru/mcp",
+      "url": "https://lidfly.ru/mcp",
       "headers": { "Authorization": "Bearer ваш-ключ" }
     },
     "vk-ads": {
       "type": "http",
-      "url": "https://direct-mcp.aatex.ru/mcp/vk",
+      "url": "https://lidfly.ru/mcp/vk",
       "headers": { "Authorization": "Bearer ваш-ключ" }
     }
   }
@@ -196,7 +196,7 @@ cp tokens.env.example tokens.env
 - Сравнение показателей между клиентами
 - Подключение через OAuth-токен основного логина агентства
 
-Подробнее: [direct-mcp.aatex.ru/agencies](https://direct-mcp.aatex.ru/agencies)
+Подробнее: [lidfly.ru/agencies](https://lidfly.ru/agencies)
 
 ## Структура проекта
 
@@ -259,7 +259,7 @@ cp tokens.env.example tokens.env
 | Gemini CLI        | [docs/setup-gemini-cli.md](docs/setup-gemini-cli.md)         |
 | OpenClaw          | [docs/setup-openclaw.md](docs/setup-openclaw.md)             |
 
-ChatGPT подключается через Settings → Connected apps → Add MCP server (нужна подписка Plus/Pro/Team). Подробнее в [документации](https://direct-mcp.aatex.ru/docs/quickstart).
+ChatGPT подключается через Settings → Connected apps → Add MCP server (нужна подписка Plus/Pro/Team). Подробнее в [документации](https://lidfly.ru/docs/quickstart).
 
 ## Настройка под свой бизнес
 
@@ -304,8 +304,8 @@ ChatGPT подключается через Settings → Connected apps → Add 
 
 ## Ссылки
 
-- [direct-mcp.aatex.ru](https://direct-mcp.aatex.ru/) — сервис direct-mcp, личный кабинет, получение API-ключа
-- [Документация](https://direct-mcp.aatex.ru/docs) — полная документация сервиса
-- [Для агентств](https://direct-mcp.aatex.ru/agencies) — тариф и возможности для рекламных агентств
+- [lidfly.ru](https://lidfly.ru/) — сервис direct-mcp, личный кабинет, получение API-ключа
+- [Документация](https://lidfly.ru/docs) — полная документация сервиса
+- [Для агентств](https://lidfly.ru/agencies) — тариф и возможности для рекламных агентств
 - [Telegram](https://t.me/directmcp) — канал проекта
 - [VK](https://vk.com/directmcp) — сообщество ВКонтакте

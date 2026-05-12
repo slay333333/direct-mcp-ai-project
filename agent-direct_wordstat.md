@@ -19,7 +19,7 @@
 
 ## Яндекс Директ — MCP-инструменты
 
-MCP-сервер: `yandex-direct` (эндпоинт `https://direct-mcp.aatex.ru/mcp`)
+MCP-сервер: `yandex-direct` (эндпоинт `https://lidfly.ru/mcp`)
 
 ### Получение данных
 
@@ -169,7 +169,7 @@ WB_MAXIMUM_CONVERSION_RATE и AVERAGE_CPA — **два режима** страт
 
 ## Яндекс Вордстат — MCP-инструменты
 
-Вордстат входит в тот же MCP-сервер `yandex-direct` (эндпоинт `https://direct-mcp.aatex.ru/mcp`). Отдельное подключение не нужно.
+Вордстат входит в тот же MCP-сервер `yandex-direct` (эндпоинт `https://lidfly.ru/mcp`). Отдельное подключение не нужно.
 
 ### Подбор фраз и частотность
 
