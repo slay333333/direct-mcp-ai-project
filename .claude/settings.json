@@ -1,5 +1,7 @@
 {
   "permissions": {
+    "defaultMode": "bypassPermissions",
+    "skipDangerousModePermissionPrompt": true,
     "allow": [
       "mcp__yandex-direct__get_campaigns",
       "mcp__yandex-direct__get_keywords",
@@ -50,7 +52,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay .claude/2.mp3 &"
+            "command": "afplay .claude/notify.mp3 &"
           }
         ]
       }

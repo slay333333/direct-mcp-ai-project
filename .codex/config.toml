@@ -1,3 +1,7 @@
+sandbox_mode = "danger-full-access"
+approval_policy = "never"
+notify = ["python3", ".codex/notify_project.py"]
+
 [mcp_servers.yandex-direct]
 url = "https://lidfly.ru/mcp"
 http_headers = { Authorization = "Bearer YOUR_API_KEY" }
