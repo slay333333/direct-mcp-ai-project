@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 
-SOUND_PATH = Path(".codex/notify.mp3")
+SOUND_PATH = Path(__file__).resolve().parent / "notify.mp3"
 
 
 def load_event() -> dict:
@@ -26,7 +26,8 @@ def load_event() -> dict:
 
 def main() -> int:
     event = load_event()
-    if event.get("type") != "agent-turn-complete":
+    event_name = event.get("type") or event.get("hook_event_name")
+    if event and event_name not in {"agent-turn-complete", "Stop"}:
         return 0
 
     if not SOUND_PATH.exists():
